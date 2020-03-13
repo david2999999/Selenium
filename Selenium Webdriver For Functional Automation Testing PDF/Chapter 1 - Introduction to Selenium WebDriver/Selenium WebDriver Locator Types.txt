@@ -1,0 +1,9 @@
+Selenium WebDrive has 8 Locator types to assist with finding an element
+    - className
+    - cssSelector
+    - id
+    - linkText
+    - name
+    - partialLinkText
+    - tagName
+    - xpath
