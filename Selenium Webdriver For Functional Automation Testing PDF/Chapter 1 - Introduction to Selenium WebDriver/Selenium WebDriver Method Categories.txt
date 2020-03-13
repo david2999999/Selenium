@@ -1,0 +1,13 @@
+Selenium WebDriver Method Categories
+
+There are 5 Method Categories for Selenium WebDriver
+    - Some methods within the same category can perform a similar task
+
+    Browser Category
+        - Closing the browser window
+            - close() - closes the current browser's window
+            - quit() - closes every associated window
+        - get(url) - loads a new web page
+
+    Navigation Category
+        - navigate().to(url) - loads a new web page
