@@ -1,0 +1,5 @@
+WebDriver and WebElements
+    - WebDriver is an interface utilized for testing web applications that contain WebElement
+    - WebElement are also known as elements
+        - buttons, text boxes, checkboxes, drop-down menus, hyperlinks, etc
+    - Finding an element then performing an action on the element are keys to automating all applications
