@@ -1,0 +1,21 @@
+TestNG
+    - Powerful testing framework structured for Java
+        - Covers all types of testing such as unit, regression, functional, end-to-end, and integration
+    - Eclipse requires a TestNG installation to utilize TestNG features such as annotations
+        - @BeforeTest
+        - @Test
+        - @AfterTest
+    - To install TestNG in Eclipse, we need to search the Eclipse Marketplace
+        - Click Help > Eclipse Marketplace
+        - Search for TestNG, Click the Go button, then Click the Install button
+        - Click the Confirm button to confirm the following features:
+              a. TestNG (required)
+              b. TestNG M2E Integration (Optional)
+        - Click the radio button “I accept the terms of the license agreement”
+        - Click the Finish button
+        - Click OK if a Security Warning appears in a modal
+        - Click Yes to restart Eclipse
+        - Verify TestNG has been added
+              a. Re-open Eclipse after restart
+              b. Click Window
+              c. Click Preferences
