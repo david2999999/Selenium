@@ -1,0 +1,22 @@
+WebDriver Object and Methods
+    - WebDriver commands are carried our through the driver object
+        - The driver object assist with locating and performing actions on WebElements
+        - Like regular objects, the driver object must be instantiated before it is used.
+            - WebDriver driver = new FirefoxDriver();
+        - After creating the driver object, WebDriver methods are available to perform actions on a browser
+            - Methods can be accessed using the dot operator
+
+Methods
+    close() - Closes the current active window if there are multiple windows. The browser quits if only one window is active
+    findElement() - Find the first WebElement based on the locator type
+    findElements() - Find all elements within the current page based on the locator type
+    get() - Loads a new web page in the current browser window
+    getCurrentUrl() - Gets a string defining the current web page URL
+    getPageSource() - Gets the complete page source of the loaded web page.
+    getTitle() - Gets the current page title
+    getWindowHandle() - Handles a browser after switching a specific window
+    getWindowHandles() - Handles all browser windows and permits the user to switch control between the parent window and child window
+    manage() - Receives the option interface
+    navigate() - Navigates to a specific URL
+    quit() - Stops/Quits the driver instance and close all open browser windows
+    switchTo() - Switch from one browser window to another browser window
