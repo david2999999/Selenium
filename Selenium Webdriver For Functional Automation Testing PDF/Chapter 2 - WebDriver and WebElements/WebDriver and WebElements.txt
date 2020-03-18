@@ -1,0 +1,10 @@
+WebDriver and WebElements
+    - Starting point for testing all web applications begins with a browser
+        - Selenium WebDriver provides support for
+            - Firefox, Google Chrome, and Internet Explorer
+    - Calls are directed to the browser by using the browser's native support for automation
+        - Common calls such as performing actions on WebElements are executed through a WebDriver
+
+    - WebDriver is a collection of related methods.
+    - WebElements are buttons, text boxes, checkboxes, drop-down menus, hyperlinks, etc
+    - The building blocks for Selenium WebDriver is to first locate a WebElement then perform an action on the WebElement
