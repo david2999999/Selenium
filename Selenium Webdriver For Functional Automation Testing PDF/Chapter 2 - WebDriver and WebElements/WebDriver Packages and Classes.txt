@@ -1,0 +1,7 @@
+WebDriver Packages and Classes
+    - WebDriver interface contains several classes
+        - Each class is utilized through an imported package
+    - The appropriate package must be imported to execute specific WebDriver and WebElement
+        - There are packages that are specific to a web browser, such as Chrome, FireFox, etc
+            - import org.openqa.selenium.WebDriver;
+            - import org.openqa.selenium.firefox.FirefoxDriver;
