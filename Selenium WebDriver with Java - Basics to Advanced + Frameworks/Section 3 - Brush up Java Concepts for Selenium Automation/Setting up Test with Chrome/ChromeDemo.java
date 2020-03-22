@@ -11,5 +11,17 @@ public class ChromeDemo {
 
         driver.get("https://www.google.com/");
         System.out.println(driver.getTitle());
+
+        System.out.println(driver.getCurrentUrl());
+
+        // System.out.println(driver.getPageSource());
+
+        driver.get("https://yahoo.com/");
+
+        // driver.navigate().back();
+        // driver.navigate().forward();
+
+        driver.close(); // closes current browser
+        driver.quit(); // closes all browsers
     }
 }
