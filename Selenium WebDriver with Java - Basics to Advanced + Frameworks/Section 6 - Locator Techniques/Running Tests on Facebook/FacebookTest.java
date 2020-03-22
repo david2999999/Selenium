@@ -10,5 +10,6 @@ public class FacebookTest {
 		driver.get("https://www.fb.com/");
 		driver.findElement(By.id("email")).sendKeys("Email Address");
 		driver.findElement(By.id("pass")).sendKeys("Password");
+		driver.findElement(By.linkText("Forgot account?")).click();;
 	}
 }
