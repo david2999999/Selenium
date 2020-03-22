@@ -11,7 +11,8 @@ public class SalesForceTest {
 		driver.findElement(By.id("username")).sendKeys("Email Address");
 		driver.findElement(By.id("password")).sendKeys("Password");
 		driver.findElement(By.id("rememberUn")).click();
-		driver.findElement(By.id("Login")).click();;
+		//driver.findElement(By.id("Login")).click();;
+		driver.findElement(By.xpath("//*[@id='Login']")).click();;
 	}
 }
 
