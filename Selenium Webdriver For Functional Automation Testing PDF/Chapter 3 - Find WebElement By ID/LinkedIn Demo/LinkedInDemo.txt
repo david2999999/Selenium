@@ -1,0 +1,15 @@
+- 'WebDriver driver' is the interface for driving the browser
+    - There are many implementations for this interface and each implementation will support a different browser
+
+- 'driver = new FirefoxDriver'
+    - implementation of the WebDriver interface
+    - This testing is controlled on the FireFox browser
+
+- 'driver.get("https://www.linkedin.com/")'
+    - loads the LinkedIn Home page in the current browser window
+
+- 'driver.quit()
+    - quits the driver instance and closes the open browser window
+
+- 'driver.findElement(By.id("first-name")).sendKeys("Test First Name")'
+    - Finds the element with the id 'first-name' and types the text 'Test First Name' in the first name text field
