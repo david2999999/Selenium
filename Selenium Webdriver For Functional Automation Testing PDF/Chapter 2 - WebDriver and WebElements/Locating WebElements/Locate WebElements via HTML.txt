@@ -1,0 +1,10 @@
+Locate WebElements via HTML
+    - All web applications and browsers contains WebElements
+        - Such as buttons, links, etc
+    - The WebElements are derived from HyperText Markup Language (HTML)
+        - HTML is the standard markup language for creating web applications and each browser
+            - Each element includes an opening and closing tag and at least one attribute
+                - Difference between an opening and closing tag is the forward slash
+                - Closing tags must include a forward slash before the tag name
+            - Attributes provide additional information about the WebElement
+        Note: Some elements do not include a closing tag
