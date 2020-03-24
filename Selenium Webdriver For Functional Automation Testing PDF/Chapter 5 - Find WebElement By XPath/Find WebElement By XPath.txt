@@ -7,3 +7,6 @@ Find WebElement By XPath
         - Absolute XPath - generate a complete XPath starting from the <html> tag or
           single forward slash (/)
         - Relative XPath - generates a shortened version of the XPath starting with double slashes (//)
+            - The relative XPath finds the nearest id attribute for the chose WebElement
+            - It is recommended to use the relative XPath rather than the absolute XPath
+                - This is because absolute XPath is more vulnerable to code changes
