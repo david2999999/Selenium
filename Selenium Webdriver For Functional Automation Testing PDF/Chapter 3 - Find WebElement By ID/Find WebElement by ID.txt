@@ -1,0 +1,5 @@
+- Finding an element by ID is one of the first priority of all locator types
+    - According to W3C, id attributes are unique on a web page, therefore id attribute is extremely safe when locating
+      element within HTML
+        - driver.findElement(By.id("first-name"));
+        - WebElement userFirstName = driver.findElement(By.id("first-name"));

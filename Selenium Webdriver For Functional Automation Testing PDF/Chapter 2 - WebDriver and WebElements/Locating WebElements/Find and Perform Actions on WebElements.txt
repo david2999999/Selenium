@@ -25,6 +25,8 @@ Syntax
         By.className - Find WebElements by the value of its Class attribute
         By.cssSelector - Find WebElements by the CSS Selector’s engine
         By.id - Find WebElements by the value of its ID attribute
+            - driver.findElement(By.id("value"))
+            - WebElement element = driver.findElement(By.id("value"));
         By.linkText - Find hyperlink WebElements by its complete text
         By.name - Find WebElements by the value of its Name attribute
         By.partialLinkText - Find hyperlink WebElements by partial text contained within the complete text
