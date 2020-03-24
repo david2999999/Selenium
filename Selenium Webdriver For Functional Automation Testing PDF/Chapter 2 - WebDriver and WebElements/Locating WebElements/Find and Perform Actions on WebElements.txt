@@ -16,3 +16,17 @@ Syntax
             - WebElement element = driver.findElement(By.id("value"));
     - findElements()
         - driver.findElements(By.locatorType("value"));
+
+    - The object 'By' is used to locate WebElements
+        - This object is used in conjunction a locator type
+        - The locator type is the main component for finding and matching WebElements
+        - There are 8 locator types to find WebElements within an application
+
+        By.className - Find WebElements by the value of its Class attribute
+        By.cssSelector - Find WebElements by the CSS Selector’s engine
+        By.id - Find WebElements by the value of its ID attribute
+        By.linkText - Find hyperlink WebElements by its complete text
+        By.name - Find WebElements by the value of its Name attribute
+        By.partialLinkText - Find hyperlink WebElements by partial text contained within the complete text
+        By.tagName - Find WebElements by its tag name
+        By.xpath - Find WebElements by its XPath
