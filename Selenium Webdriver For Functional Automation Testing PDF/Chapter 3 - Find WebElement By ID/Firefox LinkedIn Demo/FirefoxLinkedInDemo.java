@@ -1,4 +1,4 @@
-public class LinkedInDemo {
+public class FirefoxLinkedInDemo {
     WebDriver driver;
 
     @BeforeTest
