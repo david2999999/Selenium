@@ -1,0 +1,5 @@
+- There are time when a web page may not contain an id attribute
+    - Instead, the automation engineer can search for the value of a name attribute
+    - Finding an element by name is similar to finding an element by the ID locator type
+    - The name attribute is located in WebElements such as text fields and buttons
+        - However, the name can contain the same value within HTML's source code and may not be unique.
