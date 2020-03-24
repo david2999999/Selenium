@@ -1,0 +1,8 @@
+- 'WebDriver driver' is the interface for driving the browser
+    - Currently, the object reference variable 'driver' points to nothing, but will be instantiated with
+      a Chrome Driver object.
+        - The Chrome Driver means testing is controlled on the Chrome Browser
+    - In this example, the System.setProperty() method was not used since the ChromeDriver path was placed
+      in Environment Variables - System variables
+        - If we do not have the ChromeDriver path in system variables, we can manually set it with
+            - System.setProperty("webdriver.chrome.driver", "PATH TO CHROME DRIVER ON DISK");
