@@ -1,0 +1,18 @@
+Find And Perform Actions On WebElements
+    - WebDriver has two methods to find WebElements
+        - findElement()
+        - findElements()
+    - The difference between the two methods is the number of return WebElements
+        - findElement() returns a single element
+            - will throw an exception if there are no elements to be found
+        - findElements() returns multiple elements
+            - return an empty list if no elements are found
+    - It is important to know a driver object must be created before searching for a WebElement
+        - There are different kind of driver objects for different browsers
+
+Syntax
+    - findElement()
+        - driver.findElement(By.locatorType("value"));
+            - WebElement element = driver.findElement(By.id("value"));
+    - findElements()
+        - driver.findElements(By.locatorType("value"));
