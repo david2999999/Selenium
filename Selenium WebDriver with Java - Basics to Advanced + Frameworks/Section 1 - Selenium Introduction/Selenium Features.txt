@@ -1,0 +1,13 @@
+Selenium Features
+    - Open Source Automation Testing Tool
+    - Exclusive for Web Based Applications
+    - Supports multiple browsers
+        - Chrome, Firefox, Internet Explorer, Safari
+    - Multiple platforms
+        - Windows, Apple OS X, Linus
+    - Can be coded in multiple languages
+        - Java, C#, Python, Javascript, php, Ruby
+    - Difference between Selenium and Webdriver?
+        - Selenium is a suite of tools to automate web browsers across many platforms
+        - Webdriver is one of the product of Selenium
+            - The driver is a collection of language specific bindings to drive a browser
