@@ -1,0 +1,9 @@
+Working With Dynamic WebElements Using XPath
+    - There are situations when a web application may contain dynamic WebElements
+        - Dynamic WebElement is when the value on an application changes at runtime
+        - Dynamic WebElement manifests when the value of an attribute changes upon reloading the
+          web application.
+    - The home page of yahoo is a perfect example of a dynamic WebElements
+        - The list box WebElements change when the page reloads
+        - A user has to search for information and select an option from the list of options
+            - Each set of options contains a different value for ID attribute
