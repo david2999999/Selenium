@@ -12,3 +12,13 @@ Working With Dynamic WebElements Using XPath
         - Relative XPath can find dynamic WebElements utilizing a partial pattern match
             - The partial pattern match locates a WebElement based on part of the value
             - Syntax [PartialPatternMatch(@AttributeName,’AttributeValue’)]
+    - Assuming the value for an ID attribute changes from “Test123” to “Test456”, “123Test” to
+      “456Test”, and “123Test456” to “789Test123”
+        - The automation engineer can manually write a partial pattern match to find the dynamic WebElement
+            - The following are three partial pattern match types that assist with dynamic values
+                - starts-with - finds a WebElement if the value starts with a constant string value “Test123” and “Test456”
+                    - driver.findElement.(By.xpath("//[starts-with(@id,'Test')]”))
+                - ends-with - finds a WebElement if the value ends with a constant string value “123Test” and “456Test”
+                    - driver.findElement.(By.xpath("//[ends-with(@id,'Test')]”))
+                - contains - finds a WebElement if the value contains a constant string value “123Test456” and “789Test123”
+                    - driver.findElement.(By.xpath("//[contains(@id,'Test')]”))
