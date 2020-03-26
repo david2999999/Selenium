@@ -7,11 +7,13 @@ Working With Dynamic WebElements Using XPath
         - The list box WebElements change when the page reloads
         - A user has to search for information and select an option from the list of options
             - Each set of options contains a different value for ID attribute
+
     - An exception occurs if the locator attempts to find a dynamic element
         - The test script will not find the element because the value changed
         - Relative XPath can find dynamic WebElements utilizing a partial pattern match
             - The partial pattern match locates a WebElement based on part of the value
             - Syntax [PartialPatternMatch(@AttributeName,’AttributeValue’)]
+
     - Assuming the value for an ID attribute changes from “Test123” to “Test456”, “123Test” to
       “456Test”, and “123Test456” to “789Test123”
         - The automation engineer can manually write a partial pattern match to find the dynamic WebElement

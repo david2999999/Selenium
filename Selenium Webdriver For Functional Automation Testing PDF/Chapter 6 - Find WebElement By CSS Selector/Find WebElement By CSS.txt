@@ -1,0 +1,4 @@
+Find WebElement By CSS Selector
+    - Using CSS selector is a robust method for finding WebElements
+        - This locator type is very similar to the XPath locator type
+        - CSS Selector starts with # (pound, number, or hash tag sign)
