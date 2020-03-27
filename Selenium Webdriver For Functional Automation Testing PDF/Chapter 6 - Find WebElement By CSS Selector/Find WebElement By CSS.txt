@@ -1,4 +1,12 @@
 Find WebElement By CSS Selector
     - Using CSS selector is a robust method for finding WebElements
-        - This locator type is very similar to the XPath locator type
-        - CSS Selector starts with # (pound, number, or hash tag sign)
+    - This locator type is very similar to the XPath locator type
+    - CSS Selectors can start with many symbols, each symbol represents different kind of attributes
+        - # (pound, number, or hash tag sign) indicates the ID attribute
+        - . (dot) is a symbol that represents the class attribute
+            - Syntax: By.cssSelector(".Automation"), this will retrieve all elements with the class name of 'Automation'
+            - You can also identify an element using class if the tag type is 'Test' and class name is 'Automation'
+                - Syntax: (By.cssSelector("Test.Automation")), this will retrieve only elements with the tag name and the class name
+    - The difference between the CSS selector and relative XPath is the two forward slashes and the "@" symbol before attribute name
+        - CSS Selector syntax = TagName[AttributeName=’AttributeValue’]
+        - Relative XPath syntax = //TagName[@AttributeName=’AttributeValue’]
