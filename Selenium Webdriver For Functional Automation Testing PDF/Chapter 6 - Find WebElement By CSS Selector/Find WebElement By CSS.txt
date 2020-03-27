@@ -10,3 +10,18 @@ Find WebElement By CSS Selector
     - The difference between the CSS selector and relative XPath is the two forward slashes and the "@" symbol before attribute name
         - CSS Selector syntax = TagName[AttributeName=’AttributeValue’]
         - Relative XPath syntax = //TagName[@AttributeName=’AttributeValue’]
+
+Working with Dynamic WebElements
+    - The WebElement can be found although the value changes at runtime or after a page reloads
+    - CSS selector has three pattern matching symbols (^,$,*) that assist with finding dynamic WebElements
+        - Syntax: TagName[AttributeName Symbol=’AttributeValue’]
+    - Assume the value for an ID attribute changes from
+        - "Hello123" -> "Hello456"
+            - We can use the ^ (caret) to find WebElements if the value starts with a constant string value
+            - driver.findElement(By.cssSelector("*[id ^=’Hello’]"))
+        - "123Hello" -> "123Hello"
+            - We can use the $ (dollar sign) to find a WebElement if the value ends with a constant string value
+            - driver.findElement.(By.cssSelector("*[id $=’Hello’]"))
+        - "123Hello456" -> "789Hello123"
+            - We can use the * (asterisk) to find a WebElement if the value contains a constant string value
+            - driver.findElement.(By.cssSelector("*[id *=’Hello’]"))
