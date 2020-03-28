@@ -9,6 +9,7 @@ public class FacebookCSS {
         driver.get("https://www.fb.com/");
 
         driver.findElement(By.cssSelector("input[name='email']")).sendKeys("CSS Selectory Email");
+        driver.findElement(By.cssSelector("input#pass")).sendKeys("CSS Selectory Password");
         driver.findElement(By.cssSelector("[value='Log In']")).click();
     }
 }
