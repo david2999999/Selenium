@@ -1,0 +1,9 @@
+<input name="username123"/>
+
+XPath Regular Expression Syntax
+    - //tagName[contains(@attribute, 'value')]
+    - //input[contains(@name, 'username')]
+
+CSS Regular Expression Syntax
+    - //tagName[Attribute*='value']
+    - //input[name*='username']
