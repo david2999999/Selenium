@@ -1,0 +1,4 @@
+//div[@class='RNNXgb']/div/div[2]/input
+
+    - use '/' to access child elements
+    - use [] to access which child you want to access
