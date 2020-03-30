@@ -1,0 +1,6 @@
+Find WebElement By Partial Link Text
+    - Finding elements by partial link text is carried our very similarly to finding WebElement by Link Text
+        - Both techniques only works for clicking hyperlinks
+    - Only a part of the hyperlink's text name is suitable for the partial link text locator type
+        - For example: if the link text is "Forgot Password"
+            - We will be able to locate the link just with the word "Password"
