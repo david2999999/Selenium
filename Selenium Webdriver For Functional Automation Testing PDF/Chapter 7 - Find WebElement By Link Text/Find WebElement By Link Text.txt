@@ -1,0 +1,7 @@
+Find WebElement By Link Text
+    - Finding an element by Link Text is carried our via the hyperlink's text name
+        - It is one of the easiest way to click a hyperlink
+    - The entire hyperlink's text name is used as the string parameter for the Link
+      Text locator type
+    - The hyperlink's text name is placed within HTML's anchor 'a' tags and after the
+      href attribute/value
