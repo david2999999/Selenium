@@ -1,0 +1,5 @@
+Find WebElement By Class
+    - Finding WebElement by Class is unique from most locator types
+        - WebElement may contain multiple class attributes
+        - There may also be multiple WebElements within the same class attribute
+            If this scenario occurs, the first WebElement will be returned
