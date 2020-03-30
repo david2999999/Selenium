@@ -1,0 +1,4 @@
+Find WebElement By Tag Name
+    - In HTML, multiple elements share the same Tag Name
+        - So, finding an element by Tag Name is limited
+    - It is best to use another locator type in conjunction with the Tag Name locator type to identify an element
