@@ -15,6 +15,6 @@ public class ChromeFacebook {
 
     @Test
     public void clickForgotPassword() {
-        driver.findElement(By.linkText("Forgot password?")).click();
+        driver.findElement(By.partialLinkText("Forgot")).click();
     }
 }
