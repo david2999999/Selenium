@@ -11,3 +11,22 @@ Process Flow
         - Firefox, IE, Opera and so on
     - After execution, WebDriver will send out the test result back to the test script for
       developer's analysis
+
+Difference between Selenium 1 and Selenium 2
+    - Selenium RC drives the browser from within the browser by using Javascript (Selenium Core)
+        - All events that are executed goes through Core
+        - There are some limitation with this process
+            - need to comply with Same-Origin-Policy
+            - Javascript library is generic and not specific to any particular browser
+                - This may cause problems where test scripts sometimes ends up with a situation
+                  where their test script execute very well on some browsers but not on others
+    - Selenium WebDriver overcomes the limitation by handling the browser from outside the browser
+        - It has an implementation for each browser
+            - This gives the test scripts a better handle on the browser because these WebDriver implementations
+              speak to the browser natively, increasing the robustness
+        - Supports Mobile Apps
+            - There are mobile specific implementations, such as IPhoneDriver and AndroidDriver
+            - Selenium RC does not support mobile application testing
+        - Many advanced interactions with the web as well as mobile applications, such as File Handling,
+          Touch APIs
+            - These advanced features were never thought about in Selenium RC
