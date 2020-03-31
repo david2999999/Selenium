@@ -10,3 +10,7 @@ Browser Methods
     getPageSource() - Gets the complete page source of the loaded web page.
     getTitle() - Gets the current page title
     quit() - Stops/Quits the driver instance and close all open browser windows
+
+    - The close() and quit() are similar to each other, the difference is how they interact with the driver
+        - close() - close the browser window but the driver remains open after executing a Test Script
+        - quit() - close the browser window but thd driver closes after executing a Test Script
