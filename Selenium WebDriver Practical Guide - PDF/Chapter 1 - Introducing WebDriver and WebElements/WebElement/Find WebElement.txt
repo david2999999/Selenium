@@ -1,4 +1,4 @@
-The findElement() method
+findElement() method
     - In UI automation, locating an element is the first step before executing any user actions on it
     - The findElement() method is a way to locate an element on the web page
         - The method declaration is as follows
@@ -12,3 +12,9 @@ The findElement() method
     - The test script developer is advised to avoid using this method if he/she thinks the WebElement
       will not be present on the web page
         - For those purposes, we can use another method of WebDriver name findElements
+
+findElements() method
+    - If developer think that they may encounter zero or more number of WebElements for a given locating
+      mechanism, they should rather use the findElements()
+    - This method does not throw 'NoSuchElementException' in case of zero occurrences of WebElement
+    - All of the WebElements that satisfy the locating mechanism are returned inside a list
