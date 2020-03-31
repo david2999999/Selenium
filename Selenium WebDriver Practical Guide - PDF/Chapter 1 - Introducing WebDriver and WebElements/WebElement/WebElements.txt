@@ -1,0 +1,11 @@
+WebElements
+    - The web page is comprised of many different HTML elements, such as buttons, links, a body, labels, forms, and so on.
+        - These are WebElements in the context of the WebDriver
+        - When using together, these elements on a web page will achieve the business functionality
+    - UI automation is mostly about locating these WebElements on a web page and executing user action on them
+    - Example: <label>Enter Username: </label>
+        - <label> is the start tag of the WebElement label
+        - Enter Username: is the text present on the label element
+        - </label> is the end tag, which indicate the end of WebElement
+    - Example: <input type="text" name="Username" />
+        - type and name are the attributes of the WebElement input with values 'text' and 'Username' respectively
