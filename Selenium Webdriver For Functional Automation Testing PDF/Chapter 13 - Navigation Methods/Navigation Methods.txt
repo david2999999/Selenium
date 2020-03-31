@@ -1,0 +1,18 @@
+Navigation Methods
+    - Navigation Methods are utilized for
+        - loading a web page
+        - refreshing a web page
+        - moving backwards in your browser's history
+
+    back() - Moves back in the browser’s history
+    forward() - Moves forward / next in the browser’s history if not on the latest viewed page
+    refresh() - Refreshes the current page thereby reloading all WebElements
+    to(String url) - Loads a new web page
+    to(URL url) - Overloaded version of to(String url) method; loads a new web page
+
+    - Although the get() and navigate().to() method perform the same task as loading a new web page
+        - There key difference is how they maintain the browser's history
+            - get() - loads a new web page and does not maintain the browser's history
+            - navigate().to() - loads a new web page and maintains the browser's history
+        - It is best to use the navigate().to() methods if a Test Script also moves back and forth via
+          the browser's history
