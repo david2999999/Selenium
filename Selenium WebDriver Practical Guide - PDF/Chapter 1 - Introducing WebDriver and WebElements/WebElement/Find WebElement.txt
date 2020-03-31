@@ -1,0 +1,14 @@
+The findElement() method
+    - In UI automation, locating an element is the first step before executing any user actions on it
+    - The findElement() method is a way to locate an element on the web page
+        - The method declaration is as follows
+            - WebElement findElement(By by)
+        - The 'By' instance is a WebElement-locating mechanism
+        - There are eight different ways to locate a WebElement on a web page
+        - The method returns the first WebElement that the driver comes across which satisfies the
+          locating-mechanism condition
+    - If the WebDriver does not find the element, it throws a runtime exception names
+      NoSuchElementException
+    - The test script developer is advised to avoid using this method if he/she thinks the WebElement
+      will not be present on the web page
+        - For those purposes, we can use another method of WebDriver name findElements
