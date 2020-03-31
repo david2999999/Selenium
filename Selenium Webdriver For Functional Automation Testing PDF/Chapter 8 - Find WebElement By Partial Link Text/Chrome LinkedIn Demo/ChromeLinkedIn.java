@@ -1,4 +1,4 @@
-public class ChromeFacebook {
+public class ChromeLinkedIn {
     WebDriver driver;
 
     @BeforeTest

@@ -13,4 +13,16 @@ Wait Methods
                     - If the WebElement is located before the default time, then the next Test
                       step is executed
                     - If the WebElement is not located within the specified time then an exception show up
+            - Time Method accepts 2 parameters
+                - time - Accepts the time as an integer value
+                - unit - accepts the time measurement in terms of SECONDS, NANOSECONDS, MINUTES, MILLISECONDS,
+                         MICROSECONDS, HOURS, and DAYS
+             Note: The method should be used prior to loading the web page within the setUp() method
         - Explicit Wait
+            - Limited to a specific WebElement
+            - Interrupt execution until time has elapsed or an expected condition is met
+                - This condition must be satisfied before proceeding to the next Test Step
+            - Selenium Webdriver offers a WebDriverWait class and an ExpectedConditions class to assist Explicit Wait
+                - WebDriverWait creates an object reference and use an instance of WebDriver
+                    - The maximum number of seconds is added for execution inactivity
+                        - If a WebElement is not found then an exception is thrown
