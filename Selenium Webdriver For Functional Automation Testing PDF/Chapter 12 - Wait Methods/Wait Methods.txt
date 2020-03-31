@@ -8,4 +8,9 @@ Wait Methods
         - If a WebElement is not identified by a certain time, an exception will cause the test script to fail
     - There are several wait methods but the most utilized methods are
         - Implicit Wait
+            - default waiting time for each test step within the entire test script
+                - While waiting, WebDriver continues polling the DOM for the WebElement
+                    - If the WebElement is located before the default time, then the next Test
+                      step is executed
+                    - If the WebElement is not located within the specified time then an exception show up
         - Explicit Wait
