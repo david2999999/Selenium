@@ -1,0 +1,13 @@
+Selenium WebDriver
+    - Give a better control on the browser by implementing browser specific implementations
+    - Better programming experience to developers by adhering closely to the object-oriented programming
+      fundamentals.
+
+Process Flow
+    - Tester or developer can use his/her test script to command WebDriver to perform
+      certain actions on the WAUT on a certain browser
+    - By using the language binding client libraries, developers can invoke the
+      browser-specific implementations of Webdriver
+        - Firefox, IE, Opera and so on
+    - After execution, WebDriver will send out the test result back to the test script for
+      developer's analysis
