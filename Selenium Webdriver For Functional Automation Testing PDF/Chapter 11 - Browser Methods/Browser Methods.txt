@@ -1,0 +1,12 @@
+Browser Methods
+    - Group of methods that perform an action on the browser
+        - Each method can be accessed after creating an object of WebDriver, then writing the
+          object's name followed by a dot operator.
+
+
+    close() - Closes the current active window if there are multiple windows. The browser quits if only one window is active
+    get(String url) - Loads a new web page in the current browser window
+    getCurrentUrl() - Gets a string defining the current web page URL
+    getPageSource() - Gets the complete page source of the loaded web page.
+    getTitle() - Gets the current page title
+    quit() - Stops/Quits the driver instance and close all open browser windows
