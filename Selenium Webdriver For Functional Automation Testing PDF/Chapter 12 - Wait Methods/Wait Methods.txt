@@ -1,0 +1,11 @@
+Wait Methods
+    - Group of methods that pause between execution statements
+        - This is beneficial for AJAX applications
+        - AJAX stands for Asynchronous Javascript and XML, which is technique for designing async applications
+        - The application does not have to reload the web page while exchanging data with a server
+          and updating parts of the web page
+    - When a browser loads a web page, the WebElement may load at different time intervals
+        - If a WebElement is not identified by a certain time, an exception will cause the test script to fail
+    - There are several wait methods but the most utilized methods are
+        - Implicit Wait
+        - Explicit Wait
