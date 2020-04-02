@@ -1,0 +1,7 @@
+Windows
+    - Selenium WebDriver assigns an alphanumeric id called window handle to all windows
+        - This id is unique and used to switch control between each window
+    - The methods include
+        1. getWindowHandle() – get the current window handle
+        2. getWindowHandles() – get a set of window handles
+        3. switchTo().window() – switch focus between windows

@@ -1,0 +1,7 @@
+Frames
+    - A part of the HTML tags
+        - There are 2 type of frames:
+            - frame tag <frame>
+            - iframe tag <iframe>
+        - The frame tag are used to divide a web page into different frames/windows
+        - An iframe tag define an inline frame
