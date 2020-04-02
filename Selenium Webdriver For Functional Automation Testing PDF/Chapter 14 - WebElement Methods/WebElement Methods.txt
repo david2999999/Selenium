@@ -1,0 +1,20 @@
+WebElement Methods
+    - WebElement can be a button, text box, checkbox, drop-down menu, hyperlink
+        - Element that is visible on a web page
+    - WebElement methods are a group of methods that perform an action on WebElement
+
+    clear() - Clear or erase a value in a text field
+    click() - Clicks a link, button, checkbox, or radio button
+    findElement() - Find the first WebElement based on the locator type
+    findElements() - Find all elements within the current page based on the locator type
+    getAttribute() - Get the value of a specified WebElement attribute
+    getCssValue() - Returns the value of CSS properties
+    getLocation() - Returns the x and y coordinates with the top left corner of an element as the point
+    getSize() - Returns the width and height of a rendered element
+    getTagName() - Get the tag name of a specified WebElement
+    getText() - Get the visible innerText attribute of a WebElement
+    isDisplayed() - Verifies if a WebElement is present on a page
+    isEnabled() -  Verifies if a WebElement is enabled on a page
+    isSelected() - Verifies if a WebElement is selected on a page
+    sendKeys() - Insert or type text in a text field
+    submit() - Operates like the click () method if the WebElement is a form or within a form
