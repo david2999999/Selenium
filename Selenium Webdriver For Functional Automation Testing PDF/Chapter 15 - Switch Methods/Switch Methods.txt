@@ -1,0 +1,5 @@
+Switch Methods
+    - Group of methods used for switching to windows, frames, and alerts
+        - An alert is better known as a pop-up box
+        - Several Methods are accessed via switchTo() which is a WebDriver.TargetLocator interface
+    - The switchTo() method switches focus to the target element
