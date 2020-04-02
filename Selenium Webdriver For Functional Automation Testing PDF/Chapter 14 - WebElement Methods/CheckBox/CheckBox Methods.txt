@@ -1,0 +1,5 @@
+CheckBox Methods
+    - The method 'click()' performs an action of clicking a checkbox
+    - Automation engineer can verify if an element is displayed, enabled, or selected before/after performing an action
+        - methods include click(), isDisplayed(), isEnabled(), and isSelected()
+            - isDisplayed(), isEnabled(), and isSelected() have a return value of boolean
