@@ -1,0 +1,5 @@
+By Locating Mechanism
+    - Locating mechanism passed to the findElement() or the findElements() method to fetch
+      prospective WebElements on a web page
+    - There are eight different locating mechanisms
+        - Name, ID, TagName, Class, LinkText, PartialLinkText, XPath and CSS
