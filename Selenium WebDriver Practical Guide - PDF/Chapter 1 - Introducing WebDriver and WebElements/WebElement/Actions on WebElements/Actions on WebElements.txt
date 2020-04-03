@@ -1,0 +1,9 @@
+Actions on WebElement
+    - Different WebElements will have different actions that can be taken on them
+        - Example:
+            - Textbox element, we can type in some text or clear the text that is already typed in
+            - Button element, we can click on it, get the dimensions of it, and so on
+    - All the actions are listed in one WebElement interface
+        - It is the test script developer's responsibility to use the actions that are supported by
+          the target element
+        - If the action is incompatible on a WebElement, WebDriver ignores such actions silently
