@@ -6,4 +6,4 @@ CSS Selector
         - To identify the child anchor element, we use the '#flrs > a' syntax, which will return
           the link element
         - To identify the anchor element with its attribute
-            - We use '#flrs > a[a[href="/intl/en/about.html"]]' syntax
+            - We use '#flrs > a[href="/intl/en/about.html"]' syntax
