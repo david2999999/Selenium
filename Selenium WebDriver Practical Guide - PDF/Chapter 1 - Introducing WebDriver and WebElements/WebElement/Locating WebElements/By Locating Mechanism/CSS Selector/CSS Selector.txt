@@ -1,0 +1,9 @@
+CSS Selector
+    - Finding elements using CSS selector is similar to finding WebElement by XPath
+        - But the difference is that is is slightly faster than XPath locating mechanism
+    - Examples
+        - To identify an element using the div element with id #flrs, we use the #flrs syntax
+        - To identify the child anchor element, we use the '#flrs > a' syntax, which will return
+          the link element
+        - To identify the anchor element with its attribute
+            - We use '#flrs > a[a[href="/intl/en/about.html"]]' syntax
