@@ -1,0 +1,7 @@
+What is the difference between absolute and relative XPath?
+    - XPath is a query language for selecting nodes from an XML document
+    - Relative XPath
+        - We directly find/access the node without relying on its parent nodes
+        - More preferred than absolute XPath
+    - Absolute XPath
+        - Find/access the node by parent child traversal
