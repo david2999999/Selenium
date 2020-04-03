@@ -1,0 +1,17 @@
+XPath
+    - WebDriver uses XPath to identify a WebElement on the webpage
+    - XPath is short name for the XML path
+        - The HTML for our web page is also one form of the XML document
+    - So in order to identify an element on an HTML page we need to use a specific XPath
+      syntax as follows
+        - The root element is identified as //
+        - To identify all the div elements, the syntax will be //div
+        - To identify the link tags that are within the div element
+            - the syntax will be //div/a
+        - To identify all the elements with a tag, we use *.
+            - The syntax will be //div/*
+        - To identify all the div elements that are at three levels down from the root,
+          we can use //*/*/div
+        - We identify specific elements, we use attribute values of those elements,
+          such as //*/div/a[@id='attrValue], which will return the anchor element
+          - This element is at third level from root within a div element, and has an id attribute
