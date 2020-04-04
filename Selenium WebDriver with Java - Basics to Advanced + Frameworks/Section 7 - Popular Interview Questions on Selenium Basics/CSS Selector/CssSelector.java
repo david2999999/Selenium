@@ -9,6 +9,11 @@ public class CssSelector {
         driver.get("https://login.salesforce.com");
         driver.findElement(By.cssSelector("[class='input r4 wide mb16 mt8 username']")).sendKeys("Username");
         driver.findElement(By.cssSelector("input[id='password']")).sendKeys("Password");
-        driver.findElement(By.cssSelector("input[id='Login']")).click();
+        // driver.findElement(By.cssSelector("input[id='Login']")).click();
+        driver.findElement(By.cssSelector("#Login")).click();
+
+        // Short hand way of locating WebElement by CSS Selector
+        // # - ID
+        // . - ClassName
     }
 }
