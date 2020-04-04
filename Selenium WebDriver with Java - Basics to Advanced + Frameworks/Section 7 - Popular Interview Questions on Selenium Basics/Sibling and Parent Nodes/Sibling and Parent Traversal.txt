@@ -1,0 +1,10 @@
+How to traverse to sibling element using XPath?
+    - Use the following syntax
+        - /following-sibling::sibling_tag_name[sibling_index]
+
+How to traverse back to Parent element from Child Element using XPath?
+    - Use the following syntax
+        - /parent::parent_tag_name
+
+What is the major difference between XPath and CSS Selectors?
+    - XPath allows backward traversal to parent node
