@@ -1,0 +1,4 @@
+Finding WebElement with Text using XPath
+    - Using the following syntax
+        //*[text()='text']
+    - Find WebElement with any tag name with the text
