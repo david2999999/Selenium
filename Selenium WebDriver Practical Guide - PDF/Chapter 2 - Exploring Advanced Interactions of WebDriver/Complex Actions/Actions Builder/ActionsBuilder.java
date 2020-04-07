@@ -1,8 +1,8 @@
-// We can directly invoke the perform() method on the Actions instance
-// and will internally calls the build() method to create a composite action
-// before executing it
-public class ActionBuildPerform {
-    public static void main(String... args) {
+// When we want to select multiple options in a select dropdown,
+// we hold our Ctrl key and select the options we want.
+// We can perform these multiple actions using the WebDriver
+public class ActionsBuilder {
+    public static void main(String[] args) {
         WebDriver driver = new FirefoxDriver();
         driver.get("file://C:/selectable.html");
         WebElement one = driver.findElement(By.name("one"));
@@ -17,7 +17,10 @@ public class ActionBuildPerform {
                 .click(five)
                 .keyUp(Keys.CONTROL);
 
-        // Perform the action.
-        builder.perform();
+        // Generate the composite action.
+        Action compositeAction = builder.build();
+
+        // Perform the composite action.
+        compositeAction.perform();
     }
 }
