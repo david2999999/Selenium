@@ -13,16 +13,8 @@ public class ClickWebElement {
 
         Actions builder = new Actions(driver);
 
-        //Click on One
-        builder.click(one);
-        builder.build().perform();
-
-        // Click on Eleven
-        builder.click(eleven);
-        builder.build().perform();
-
-        //Click on Five
-        builder.click(five)
+        //Click on One, Eleven and Five
+        builder.click(one).click(eleven).click(five);
         builder.build().perform();
     }
 }
