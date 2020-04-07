@@ -2,7 +2,7 @@
 //      - It is used to fetch the CSS properties values of the given element
 //      - These properties include font-family, background-color, color, and so on
 // This is useful when you want to validate the CSS Styles that are applied to your WebElement
-public class CSSValues {
+public class CssValues {
     public static void main(String[] args) {
         WebDriver driver = new FirefoxDriver();
         driver.get("http://www.google.com");
