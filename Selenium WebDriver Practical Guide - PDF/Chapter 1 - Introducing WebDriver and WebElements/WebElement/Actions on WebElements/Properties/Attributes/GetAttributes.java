@@ -1,3 +1,11 @@
+// Getting Attribute
+//    - The getAttribute() action can be executed on all the WebElement
+//    - The attributes are modifiers of HTML elements
+//        - They are generally key-value pairs appearing in the start tag of an element
+//    - Example:
+//        <label name="Username" id="uname">Enter Username: </label>
+//    - The API syntax of the getAttributes() is
+//        java.lang.String getAttribute(java.lang.String name)
 public class GetAttributes {
     // <button id="gbqfba" class="gbqfba" name="btnK" aria-label="Google Search">
     public static void main(String[] args){
