@@ -16,11 +16,20 @@ public class AutoSuggestiveDropdown {
         driver.findElement(By.id("fromCity")).click();
         Thread.sleep(1000);
 
-        WebElement fromDestination = driver.findElement(By.xpath("//input[@placeholder='From']"));
-        fromDestination.sendKeys("DEL");
+        WebElement from = driver.findElement(By.xpath("//input[@placeholder='From']"));
+        from.sendKeys("DEL");
         Thread.sleep(2000);
 
-        fromDestination.sendKeys(Keys.ARROW_DOWN);
-        fromDestination.sendKeys(Keys.ENTER);
+        from.sendKeys(Keys.ARROW_DOWN);
+        from.sendKeys(Keys.ENTER);
+        Thread.sleep(1000);
+
+        WebElement destination = driver.findElement(By.xpath("//input[@placeholder='To']"));
+        destination.sendKeys("Thailand");
+        Thread.sleep(2000);
+
+        destination.sendKeys(Keys.ARROW_DOWN);
+        Thread.sleep(1000);
+        destination.sendKeys(Keys.ENTER);
     }
 }
