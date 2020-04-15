@@ -1,0 +1,8 @@
+KeyDown() method
+    - Simulates the action of pressing and holding a key
+        - The keys that we are referencing here are Shift, Ctrl, and Alt keys
+    - An illegalArgumentException is thrown when the passed key is not one of the Shift, Ctrl, and Alt keys
+
+keyUp() method
+    - used to release the key that is already pressed using keyDown()
+        - unexpected results if used on a key, on which a keyDown action is not already being performed
