@@ -1,0 +1,7 @@
+Capabilities
+    - interface in the WebDriver library whose direct implementation is the
+      DesiredCapabilities class
+    - The steps to creating a browser session with specific capabilities
+        - Identify all capabilities
+        - Create a 'DesiredCapabilities' class instance and set all of the capabilities to it
+        - Create an instance of WebDriver with all the above capabilities passed to it
