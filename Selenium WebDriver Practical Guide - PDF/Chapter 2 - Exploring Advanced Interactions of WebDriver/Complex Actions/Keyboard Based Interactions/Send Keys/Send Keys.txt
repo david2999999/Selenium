@@ -1,0 +1,6 @@
+sendKeys() method
+    - used to type in alphanumeric and special character keys into WebElement
+        - such as textbox, textarea, and so on
+    - This is different from the WebElement.sendKeys() method, as this method expects
+      the WebElements to have the focus before being called
+        - public Actions sendKeys(CharSequence keysToSend)
