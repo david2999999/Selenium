@@ -1,0 +1,11 @@
+Handling Alerts
+    - Webdriver provides an API to handle alert dialogs
+        - Alert alert()
+    - The preceding method will switch to the currently active modal dialog on the web page
+        - It returns an Alert instance where appropriate actions can be taken on the dialog
+        - If there is no dialog currently presents, it throws back a NoAlertPresentException
+    - The interface provides 4 methods
+        - accept(), invoke the OK button
+        - dismiss(), clicking on the CANCEL action button
+        - getText(), retrieve the text that appears on the dialog
+        - sendKeys(), type in some text into the alert if the alert has some provision
