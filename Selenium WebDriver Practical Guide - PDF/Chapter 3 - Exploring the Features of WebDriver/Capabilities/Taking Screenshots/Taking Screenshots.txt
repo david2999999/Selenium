@@ -1,0 +1,13 @@
+Screenshots
+    - Very handy when the test case fails, and we want to see the state of the application, when
+      the test fails
+    - The 'TakesScreenShot' interface in the WebDriver library is implemented by all the
+      different variants of WebDriver.
+        - This capability is enabled in all browsers by default
+        - This is a read-only capability, a user does not have much say on toggling it
+    - Syntax
+        - public <X> X getScreenshotAs(OutputType<X> target)
+        - The OutputType is another interface
+            - There are three different formats, BASE64, BYTES, and FILE
+            - The FILE format writes the data into a .png files, which will be deleted once
+              the JVM is killed
