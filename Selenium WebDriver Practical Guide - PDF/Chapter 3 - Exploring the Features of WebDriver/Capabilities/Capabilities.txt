@@ -5,3 +5,14 @@ Capabilities
         - Identify all capabilities
         - Create a 'DesiredCapabilities' class instance and set all of the capabilities to it
         - Create an instance of WebDriver with all the above capabilities passed to it
+
+Default Capabilities Across all Browsers
+    1) takesScreenShot - browser session can take screenshot of a webpage
+    2) handlesAlert - browser session can handle modal dialogs
+    3) cssSelectorsEnabled - can use CSS selectors while searching for elements
+    4) javascriptEnabled - Enables/disables user-supplied JavaScript execution in
+       the context of the webpage
+    5) acceptSSLCerts - Enables/disables the browser to accept all of the SSL certificates
+       by default
+    6) webStorageEnabled - HTML5 feature, enable or disable the browser session to interact
+       with storage objects
