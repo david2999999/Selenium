@@ -1,0 +1,9 @@
+Switching Among Windows
+    - Every time we open a web page using WebDriver in a browser window, WebDriver
+      assigns a window handler to that
+        - WebDriver uses this identifier to identify the window
+    - When we click on a link, a search page is opened in a different window
+        - At this point, in the WebDriver, there are two window handles registered
+        - On the screen, the search page is in the front and has the focus
+            - If we want to switch back to the first browser window, we can use WebDriver's
+              switchTo() method to do that.
