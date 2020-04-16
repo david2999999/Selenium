@@ -1,0 +1,9 @@
+Switching Between Frames
+    - The API syntax for the frame is as follows:
+        - WebDriver frame(int index)
+    - The methods takes the index of the frame that we want to switch to
+        - If we have three frames, WebDriver indexes them as 0, 1, and 2
+    - If we want to switch among frames using their names by using the overloaded method
+        - WebDriverframe(String frameNameOrframeID)
+    - We also have a choice to get the frame by WebElement
+        - WebDriver frame(WebElement frameElement)
