@@ -1,0 +1,7 @@
+Implicit Wait
+    - Global wait time
+    - Wait for n number of seconds before throwing exception
+    - If the loading takes less than n seconds
+        - It will not wait for n seconds, but will execute the exact time the element
+          finishes loading
+        - n is the maximum time it will wait
