@@ -11,6 +11,10 @@ Explicit Wait
         - When there is an exception of wait time, where the time needed may be longer than
           the implicit wait
 
+    - WebDriverWait, continuously monitors the DOM for the element
+    - FluentWait, polls repeatedly at regular intervals of time until the timeout or till the object
+        gets found.
+
 Thread Sleep
     - Part of the Java Language
         - Stops the code execution for a set amount of time
