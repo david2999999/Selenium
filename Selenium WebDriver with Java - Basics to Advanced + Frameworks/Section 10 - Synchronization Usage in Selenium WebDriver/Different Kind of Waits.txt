@@ -5,3 +5,14 @@ Implicit Wait
         - It will not wait for n seconds, but will execute the exact time the element
           finishes loading
         - n is the maximum time it will wait
+
+Explicit Wait
+    - Target a specific WebElement
+        - When there is an exception of wait time, where the time needed may be longer than
+          the implicit wait
+
+Thread Sleep
+    - Part of the Java Language
+        - Stops the code execution for a set amount of time
+        - Not preferred in real time projects
+            - There is no point waiting for 5 seconds if the WebElement loads in 3 seconds
