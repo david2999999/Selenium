@@ -9,10 +9,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ECommerce {
+    private static WebDriver driver;
+
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "D:\\Selenium Chrome Driver\\chromeDriver.exe");
 
-        WebDriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
         driver.get("https://www.rahulshettyacademy.com/seleniumPractise/");
         driver.manage().window().maximize();
 
@@ -23,6 +25,14 @@ public class ECommerce {
         itemsWanted.add("Brinjal");
         itemsWanted.add("Capsicum");
 
+        addItemsToCart(itemsWanted);
+
+        driver.findElement(By.cssSelector("img[alt='Cart']")).click();
+        driver.findElement(By.xpath("//button[contains(text(),'PROCEED TO CHECKOUT')]")).click();
+        driver.findElement(By.xpath("//input[@placeholder='Enter promo code']")).sendKeys("Promo Code!");;
+    }
+
+    private static void addItemsToCart(List<String> itemsWanted) {
         List<WebElement> productNames = driver.findElements(By.cssSelector("h4.product-name"));
         List<WebElement> addToCartButtons = driver.findElements(By.xpath("//button[text()='ADD TO CART']"));
 
