@@ -2,6 +2,7 @@ package com.selenium.eCommerce;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,7 @@ public class ECommerce {
 
         driver = new ChromeDriver();
         driver.get("https://www.rahulshettyacademy.com/seleniumPractise/");
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
         List<String> itemsWanted = new ArrayList<>();
@@ -29,7 +31,9 @@ public class ECommerce {
 
         driver.findElement(By.cssSelector("img[alt='Cart']")).click();
         driver.findElement(By.xpath("//button[contains(text(),'PROCEED TO CHECKOUT')]")).click();
-        driver.findElement(By.xpath("//input[@placeholder='Enter promo code']")).sendKeys("Promo Code!");;
+        driver.findElement(By.xpath("//input[@placeholder='Enter promo code']")).sendKeys("rahulshettyacademy");
+        driver.findElement(By.cssSelector(".promoBtn")).click();
+        System.out.println(driver.findElement(By.cssSelector(".promoInfo")).getText());
     }
 
     private static void addItemsToCart(List<String> itemsWanted) {
